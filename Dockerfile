@@ -166,7 +166,7 @@ RUN yum install -y \
     libpipeline-1.2.3-3.3.amzn1.x86_64 \
     libpng-2:1.2.49-2.14.amzn1.x86_64 \
     libpsl-0.6.2-1.2.amzn1.x86_64 \
-    libpwquality-1.2.3-4.8.amzn1.x86_64 \
+#    libpwquality-1.2.3-4.8.amzn1.x86_64 \
     libselinux-2.1.10-3.22.amzn1.x86_64 \
     libselinux-utils-2.1.10-3.22.amzn1.x86_64 \
     libsemanage-2.1.6-3.13.amzn1.x86_64 \
@@ -214,7 +214,7 @@ RUN yum install -y \
     nss-sysinit-3.21.0-9.76.amzn1.x86_64 \
     nss-tools-3.21.0-9.76.amzn1.x86_64 \
     nss-util-3.21.0-2.2.50.amzn1.x86_64 \
-    ntp-4.2.6p5-41.32.amzn1.x86_64 \
+#    ntp-4.2.6p5-41.32.amzn1.x86_64 \
     ntpdate-4.2.6p5-41.32.amzn1.x86_64 \
     ntsysv-1.3.49.3-2.14.amzn1.x86_64 \
     numactl-2.0.7-8.11.amzn1.x86_64 \
