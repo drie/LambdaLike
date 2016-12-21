@@ -1,6 +1,6 @@
 FROM amazonlinux
 
-RUN yum clean all
+RUN touch /var/lib/rpm/*
 RUN yum install -y \
     acl-2.2.49-6.11.amzn1.x86_64 \
     acpid-1.0.10-2.1.6.amzn1.x86_64 \
