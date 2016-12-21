@@ -190,7 +190,7 @@ RUN yum install -y \
     perl-Text-ParseWords-3.29-4.5.amzn1.noarch \
     perl-Thread-Queue-3.02-2.5.amzn1.noarch \
     perl-threads-1.87-4.5.amzn1.x86_64 \
-    perl-threads-shared-1.43-6.5.amzn1.x86_64 \
+    # perl-threads-shared-1.43-6.5.amzn1.x86_64 \
     perl-Time-Local-1.2300-2.5.amzn1.noarch \
     pinentry-0.7.6-6.11.amzn1.x86_64 \
     pixman-0.32.4-4.11.amzn1.x86_64 \
