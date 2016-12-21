@@ -386,7 +386,7 @@ RUN yum install -y \
     yum-plugin-upgrade-helper-1.1.31-34.28.amzn1.noarch \
     yum-utils-1.1.31-34.28.amzn1.noarch \
     zip-3.0-1.10.amzn1.x86_64 \
-    zlib-1.2.8-7.18.amzn1.x86_64
+    zlib-1.2.8-7.18.amzn1.x86_64 # Updated December 2016
 
 RUN useradd ec2-user -d /home/ec2-user -m
 ADD sudoers /etc/sudoers.d/cloud-init
