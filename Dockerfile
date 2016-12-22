@@ -1,7 +1,6 @@
 FROM amazonlinux
 
-RUN touch /var/lib/rpm/*
-RUN yum install -y \
+RUN touch /var/lib/rpm/* && yum install -y \
     alsa-lib-1.0.22-3.9.amzn1.x86_64 \
     audit-libs-2.4.1-5.27.amzn1.x86_64 \
     avahi-libs-0.6.25-12.17.amzn1.x86_64 \
