@@ -15,4 +15,4 @@ time between writing code and noticing that you're missing a critical dependency
 I'll happily review and accept pull requests which make this even more similar to Amazon Linux running on EC2 or Lambda.
 
 ## Warning
-This is not endorse by Amazon or [@jeffbar](https://twitter.com/jeffbarr) in any respect (but it would be awesome if it where).
+This project is not endorsed by Amazon or [@jeffbar](https://twitter.com/jeffbarr) in any respect (but it would be awesome if it where).
