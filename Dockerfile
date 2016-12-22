@@ -1,4 +1,4 @@
-FROM amazonlinux
+FROM amazonlinux:latest
 
 RUN touch /var/lib/rpm/* && yum install -y \
     alsa-lib-1.0.22-3.9.amzn1.x86_64 \
